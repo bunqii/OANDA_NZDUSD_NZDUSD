@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "NZD_USD",
+  "granularity": "M1",
+  "chunk_start": "2003-02-01",
+  "chunk_end": "2003-02-28",
+  "parquet_file": "OANDA_NZDUSD_NZDUSD_1_2003-02-01_to_2003-02-28.parquet",
+  "data_file": "OANDA_NZDUSD_NZDUSD_1_2003-02-01_to_2003-02-28.parquet",
+  "row_count": 25,
+  "first_candle": {
+    "time": 1044219300,
+    "Time": "2003-02-02T20:55:00.000000000Z",
+    "open": 0.5432,
+    "high": 0.5432,
+    "low": 0.5432,
+    "close": 0.5432,
+    "volume": 1
+  },
+  "last_candle": {
+    "time": 1046464800,
+    "Time": "2003-02-28T20:40:00.000000000Z",
+    "open": 0.5596,
+    "high": 0.5596,
+    "low": 0.5596,
+    "close": 0.5596,
+    "volume": 1
+  },
+  "csv_file": "OANDA_NZDUSD_NZDUSD_1_2003-02-01_to_2003-02-28.parquet",
+  "csv_row_count": 25,
+  "csv_first_candle": {
+    "time": 1044219300,
+    "Time": "2003-02-02T20:55:00.000000000Z",
+    "open": 0.5432,
+    "high": 0.5432,
+    "low": 0.5432,
+    "close": 0.5432,
+    "volume": 1
+  },
+  "csv_last_candle": {
+    "time": 1046464800,
+    "Time": "2003-02-28T20:40:00.000000000Z",
+    "open": 0.5596,
+    "high": 0.5596,
+    "low": 0.5596,
+    "close": 0.5596,
+    "volume": 1
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T00:15:49.000000000Z",
+  "generated_at": "2026-10-16T00:15:49.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2531,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-01-30T08:19:00Z",
+        "to": "2003-02-02T19:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-02-02T19:39:00Z",
+        "to": "2003-02-06T06:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-02-06T06:59:00Z",
+        "to": "2003-02-09T18:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-02-09T18:19:00Z",
+        "to": "2003-02-13T05:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-02-13T05:39:00Z",
+        "to": "2003-02-16T16:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-02-16T16:59:00Z",
+        "to": "2003-02-20T04:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-02-20T04:19:00Z",
+        "to": "2003-02-23T15:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-02-23T15:39:00Z",
+        "to": "2003-02-27T02:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-02-27T02:59:00Z",
+        "to": "2003-03-02T14:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

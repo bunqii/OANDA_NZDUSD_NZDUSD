@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "NZD_USD",
+  "granularity": "M1",
+  "chunk_start": "2015-11-01",
+  "chunk_end": "2015-11-30",
+  "parquet_file": "OANDA_NZDUSD_NZDUSD_1_2015-11-01_to_2015-11-30.parquet",
+  "data_file": "OANDA_NZDUSD_NZDUSD_1_2015-11-01_to_2015-11-30.parquet",
+  "row_count": 28886,
+  "first_candle": {
+    "time": 1446415200,
+    "Time": "2015-11-01T22:00:00.000000000Z",
+    "open": 0.67395,
+    "high": 0.67444,
+    "low": 0.67334,
+    "close": 0.67402,
+    "volume": 23
+  },
+  "last_candle": {
+    "time": 1448927940,
+    "Time": "2015-11-30T23:59:00.000000000Z",
+    "open": 0.65961,
+    "high": 0.65961,
+    "low": 0.65959,
+    "close": 0.65959,
+    "volume": 6
+  },
+  "csv_file": "OANDA_NZDUSD_NZDUSD_1_2015-11-01_to_2015-11-30.parquet",
+  "csv_row_count": 28886,
+  "csv_first_candle": {
+    "time": 1446415200,
+    "Time": "2015-11-01T22:00:00.000000000Z",
+    "open": 0.67395,
+    "high": 0.67444,
+    "low": 0.67334,
+    "close": 0.67402,
+    "volume": 23
+  },
+  "csv_last_candle": {
+    "time": 1448927940,
+    "Time": "2015-11-30T23:59:00.000000000Z",
+    "open": 0.65961,
+    "high": 0.65961,
+    "low": 0.65959,
+    "close": 0.65959,
+    "volume": 6
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T00:18:35.000000000Z",
+  "generated_at": "2026-10-16T00:18:35.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2531,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2015-10-30T14:19:00Z",
+        "to": "2015-11-03T01:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2015-11-03T01:39:00Z",
+        "to": "2015-11-06T12:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2015-11-06T12:59:00Z",
+        "to": "2015-11-10T00:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2015-11-10T00:19:00Z",
+        "to": "2015-11-13T11:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2015-11-13T11:39:00Z",
+        "to": "2015-11-16T22:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2015-11-16T22:59:00Z",
+        "to": "2015-11-20T10:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2015-11-20T10:19:00Z",
+        "to": "2015-11-23T21:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2015-11-23T21:39:00Z",
+        "to": "2015-11-27T08:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2015-11-27T08:59:00Z",
+        "to": "2015-11-30T20:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2015-11-30T20:19:00Z",
+        "to": "2015-12-04T07:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
