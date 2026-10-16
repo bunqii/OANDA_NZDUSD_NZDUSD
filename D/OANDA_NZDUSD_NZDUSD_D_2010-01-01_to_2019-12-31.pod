@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "NZD_USD",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_NZDUSD_NZDUSD_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_NZDUSD_NZDUSD_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2878,
+  "first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 0.72325,
+    "high": 0.72427,
+    "low": 0.72239,
+    "close": 0.72397,
+    "volume": 207
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 0.67266,
+    "high": 0.67558,
+    "low": 0.67169,
+    "close": 0.67292,
+    "volume": 8193
+  },
+  "csv_file": "OANDA_NZDUSD_NZDUSD_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2878,
+  "csv_first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 0.72325,
+    "high": 0.72427,
+    "low": 0.72239,
+    "close": 0.72397,
+    "volume": 207
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 0.67266,
+    "high": 0.67558,
+    "low": 0.67169,
+    "close": 0.67292,
+    "volume": 8193
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T00:20:09.000000000Z",
+  "generated_at": "2026-10-16T00:20:09.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2002-09-23T21:00:00Z",
+        "to": "2016-06-01T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-06-01T21:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
